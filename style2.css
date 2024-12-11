@@ -1,0 +1,709 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(56, 56, 56);
+}
+.logoheader {
+  height: 40%;
+  width: 25%;
+}
+
+header {
+  height: 60%;
+}
+
+nav {
+  background-color: rgb(255, 211, 128);
+  color: rgb(168, 5, 5);
+  height: 8vh;
+  width: 100%;
+  font-size: 130%;
+}
+
+.hero-container {
+  height: 55vh;
+  background-image: url(bg_header.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  /* justify-content: start; */
+  padding-top: 28px;
+  justify-content: space-evenly;
+  padding-right: 739px;
+  padding-left: 300px;
+}
+
+.navA {
+  /* color: rgb(160, 25, 25); */
+  text-decoration: none;
+  color: rgb(230, 2, 2);
+}
+
+.input2 {
+  display: flex;
+  justify-content: flex-end;
+  height: 32px;
+  position: relative;
+  right: 15vw;
+  bottom: 3vh;
+}
+
+input {
+  color: rgb(160, 25, 25);
+  background-color: rgb(255, 211, 128);
+  border-color: rgb(160, 25, 25);
+  font-size: 17px;
+}
+
+.loupe {
+  background-color: rgb(160, 25, 25);
+  filter: ;
+}
+
+.categorie-plat {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.soupe {
+  background-image: url(soupe.jpg);
+  height: 30vh;
+  width: 20vw;
+  background-size: cover;
+  position: relative;
+}
+
+.soupetxt {
+  position: absolute;
+  font-size: 40px;
+  width: 60%;
+  top: 40%;
+  left: 22%;
+  color: rgba(255, 211, 128, 0.815);
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  text-align: center;
+}
+
+.salade {
+  background-image: url(salade.jpg);
+  height: 30vh;
+  width: 20vw;
+  background-size: cover;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.saladetxt {
+  position: absolute;
+  font-size: 40px;
+  width: 60%;
+  top: 40%;
+  left: 22%;
+  color: rgba(255, 211, 128, 0.815);
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  text-align: center;
+}
+
+.dessert {
+  background-image: url(dessert.jpg);
+  height: 30vh;
+  width: 20vw;
+  background-size: cover;
+  position: relative;
+}
+
+.dessertxt {
+  position: absolute;
+  font-size: 40px;
+  width: 60%;
+  top: 40%;
+  left: 22%;
+  color: rgba(255, 211, 128, 0.815);
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+.recent {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-recent {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 21px;
+  padding-left: 19vw;
+  width: 41vw;
+}
+
+.titre1 {
+  color: rgba(255, 211, 128, 0.815);
+  font-size: 30px;
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-color: rgb(160, 25, 25);
+  width: 41vw;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tacos {
+  background-image: url(tacos.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  height: 30vh;
+  width: 41vw;
+}
+
+.carretacos {
+  background-color: rgb(194, 197, 126);
+  height: 50vh;
+  width: 41vw;
+}
+
+.toque {
+  position: relative;
+  bottom: 36px;
+  left: 352px;
+  height: 80px;
+}
+
+.recette {
+  color: rgb(163, 93, 65);
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.chicken-tacos {
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+.parjohndoe {
+  color: rgb(85, 85, 85);
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.lorem1 {
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  width: 41vw;
+  word-spacing: 10px;
+}
+
+.lirePlus {
+  background-color: brown;
+  color: white;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  padding-top: 20px;
+  top: 35px;
+  left: 280px;
+}
+
+.articleRecent2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 363px;
+  gap: 37px;
+}
+.groupeBoeuf {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  height: 10px;
+  width: 10px;
+}
+
+.boeuf {
+  background-image: url(cote_de_boeuf.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  height: 18vh;
+  width: 19.5vw;
+}
+
+.carreBoeuf {
+  background-color: rgb(194, 197, 126);
+  height: 50vh;
+  width: 19.5vw;
+}
+
+.toque2 {
+  position: relative;
+  bottom: 36px;
+  left: 145px;
+  height: 80px;
+}
+
+.recette2 {
+  color: rgb(163, 93, 65);
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.cotedeboeuf {
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+.parjohndoe2 {
+  color: rgb(85, 85, 85);
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.lorem2 {
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  width: 19vw;
+  word-spacing: 10px;
+}
+
+.lirePlus2 {
+  background-color: brown;
+  color: white;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  padding-top: 20px;
+  top: 35px;
+  left: 80px;
+}
+
+.groupecake {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  height: 500px;
+  width: 374px;
+}
+
+.cake {
+  background-image: url(carrot.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  height: 18vh;
+  width: 19.5vw;
+}
+
+.carrecake {
+  background-color: rgb(194, 197, 126);
+  height: 50vh;
+  width: 19.5vw;
+}
+
+.toque3 {
+  position: relative;
+  bottom: 36px;
+  left: 145px;
+  height: 80px;
+}
+
+.recette3 {
+  color: rgb(163, 93, 65);
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.carrotcake {
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+.parjohndoe3 {
+  color: rgb(85, 85, 85);
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.lorem3 {
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  width: 19vw;
+  word-spacing: 10px;
+}
+
+.lirePlus3 {
+  background-color: brown;
+  color: white;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  padding-top: 20px;
+  top: 35px;
+  left: 80px;
+}
+
+.articleRecent3 {
+  padding-left: 19vw;
+}
+
+.cookie {
+  background-image: url(cookies.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  height: 30vh;
+  width: 41vw;
+}
+
+.carrecookie {
+  background-color: rgb(194, 197, 126);
+  height: 50vh;
+  width: 41vw;
+}
+
+.toque4 {
+  position: relative;
+  bottom: 36px;
+  left: 352px;
+  height: 80px;
+}
+
+.recette4 {
+  color: rgb(163, 93, 65);
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.cookieSesame {
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+.parjohndoe4 {
+  color: rgb(85, 85, 85);
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.lorem4 {
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  width: 41vw;
+  word-spacing: 10px;
+}
+
+.lirePlus4 {
+  background-color: brown;
+  color: white;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  padding-top: 20px;
+  top: 35px;
+  left: 280px;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.groupeMe {
+  display: flex;
+  flex-direction: column;
+}
+
+.Me {
+  background-image: url(me.jpg);
+  background-size: cover;
+  margin-top: 10.45vh;
+  height: 45vh;
+  width: 18vw;
+}
+
+.carreMe {
+  background-color: rgba(240, 248, 255, 0);
+  position: relative;
+  bottom: 200px;
+  left: 22px;
+  height: 230px;
+  width: 312px;
+  text-align: center;
+  color: rgb(77, 75, 75);
+}
+
+h3 {
+  color: rgb(66, 66, 66);
+  /* width: 20px;
+  height: 20px; */
+  margin-bottom: 15px;
+}
+
+.logos {
+  height: 30px;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.titre2 {
+  color: rgba(255, 211, 128, 0.815);
+  font-size: 30px;
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-color: rgb(160, 25, 25);
+  width: 18vw;
+  text-align: center;
+  margin-top: -170px;
+}
+
+.categories {
+  color: rgba(255, 255, 255, 0.836);
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.alcool2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jusdefruit {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 44px;
+}
+
+.vivelebio {
+  display: flex;
+  justify-content: end;
+  padding-right: 44px;
+}
+
+.fleche {
+  height: 20px;
+  padding-left: 250px;
+  margin-top: 10px;
+}
+
+.bieres {
+  background-image: url(bieres.jpg);
+  background-size: cover;
+  margin-top: 5vh;
+  height: 45vh;
+  width: 18vw;
+}
+
+.carrebieres {
+  background-color: rgba(9, 123, 223, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 10px;
+  height: 43vh;
+  width: 16vw;
+  text-align: center;
+  color: rgb(255, 205, 148);
+  font-size: 20px;
+  line-height: 40px;
+  border: solid 1px;
+  border-color: rgb(255, 205, 148);
+}
+
+span {
+  font-size: 30px;
+}
+
+.cafe {
+  background-image: url(cafe.jpg);
+  background-size: cover;
+  margin-top: 5vh;
+  height: 45vh;
+  width: 18vw;
+}
+
+.carrecafe {
+  background-color: rgba(9, 123, 223, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 10px;
+  height: 43vh;
+  width: 16vw;
+  text-align: center;
+  color: rgb(255, 205, 148);
+  font-size: 20px;
+  line-height: 40px;
+  border: solid 1px;
+  border-color: rgb(255, 205, 148);
+}
+
+.lirePlus5 {
+  background-color: brown;
+  color: white;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  padding-top: 5px;
+  top: 130px;
+  left: 60px;
+}
+
+.lirePlus6 {
+  background-color: brown;
+  color: white;
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  padding-top: 5px;
+  top: 130px;
+  left: 60px;
+}
+
+.magaleriephoto {
+  color: rgba(255, 211, 128, 0.815);
+  font-size: 25px;
+  /* border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-color: rgb(160, 25, 25);
+  margin-top: 50px; */
+
+  /* text-align: center; */
+}
+
+.titre3 {
+  color: rgba(255, 211, 128, 0.815);
+  font-size: 30px;
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-color: rgb(160, 25, 25);
+  width: 60vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 19vw;
+  margin-bottom: 70px;
+}
+
+.imagehaut {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imagebas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.footer {
+  background-image: url(Calque.png);
+  background-size: cover;
+  height: 30vh;
+}
+
+.logofooter {
+  position: relative;
+  left: 25vw;
+  top: 4vh;
+}
+
+.lifooter {
+  color: rgba(255, 255, 255, 0.788);
+}
+
+.ulfooter {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  width: 65%;
+  padding-top: 50px;
+}
+
+.footertxt {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  gap: 30px;
+  /* height: 20vh; */
+  width: 65%;
+  padding-top: 50px;
+  padding-left: 340px;
+  color: rgba(255, 255, 255, 0.842);
+}
